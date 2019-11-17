@@ -6,7 +6,7 @@ a.trainer-links {
   color: blue;
 }
 a.trainer-links:hover {
-  color: green;
+  color: rgb(52, 243, 52);
   text-decoration: underline;
 }
 
@@ -20,7 +20,18 @@ a.trainer-links:hover {
 /* results styles */
 
 .col-lg-6 a:hover {
-  background-color: green;
+  background-color: rgb(52, 243, 52);
+  color: blue;
+}
+
+/* 404 styles */
+
+.list404 a:visited {
+  color: gray;
+}
+
+.list404 a:active {
+  background-color: rgb(52, 243, 52);
 }
 
 /* footer */
